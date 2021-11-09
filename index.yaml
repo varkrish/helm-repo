@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2021-11-09T07:29:49.002421+05:30"
+entries:
+  go-ping:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-09T07:34:55.13977+05:30"
+    description: A Helm chart for Kubernetes
+    digest: b7038af28dd00dc4bcd665c83b6548e1e9926d1769914c33c8cbfa648d2fa493
+    name: go-ping
+    type: application
+    urls:
+    - charts/go-ping-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-09T07:34:55.137912+05:30"
