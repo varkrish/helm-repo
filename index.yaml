@@ -3,7 +3,7 @@ entries:
   go-ping:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-09T07:34:55.13977+05:30"
+    created: "2022-04-14T10:54:25.648223+10:00"
     description: A Helm chart for Kubernetes
     digest: b7038af28dd00dc4bcd665c83b6548e1e9926d1769914c33c8cbfa648d2fa493
     name: go-ping
@@ -11,4 +11,15 @@ entries:
     urls:
     - charts/go-ping-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-09T07:34:55.137912+05:30"
+  spring_config_server:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-04-14T10:54:25.650021+10:00"
+    description: Spring Config server for Java applications
+    digest: d7883da9dbe5bd6169e8603683f8485f5ff0924066fa91dbf78930b31d4e4f2b
+    name: spring_config_server
+    type: application
+    urls:
+    - charts/spring_config_server-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-14T10:54:25.647238+10:00"
